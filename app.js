@@ -168,21 +168,16 @@ if(condition){
 
 // if prompt document.write
 
-var timeNow = prompt("please enter the time now");
+var moviePart = prompt("please enter the movie Part that u want to watch");
 
-if (timeNow >= 18) {
-  document.write("Good Evening");
+if (moviePart >= 1) {
+  document.write("nice choice");
   document.write(
-    '<img src="https://i.pinimg.com/originals/6c/04/c6/6c04c6b013470efcb9474cf8e8f0456e.jpg">'
+    '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxSGLzyPSfbsIfp0lPDGDFOxdzsrFUWA1YIA&usqp=CAU">'
   );
-} else if (timeNow >= 12) {
-  document.write("Good Afternoon");
+} else if (moviePart >= 2) {
+  document.write("gorgious");
   document.write(
-    '<img src="https://i.pinimg.com/originals/4e/86/86/4e8686f7ef038e941f81bc7504e6ab66.png">'
+    '<img src="https://i.ebayimg.com/images/g/k0EAAOSwc9ZcmAvP/s-l300.jpg">'
   );
-} else if (timeNow >= 0) {
-  document.write("Good Morning");
-  document.write(
-    '<img src="https://miro.medium.com/max/1600/1*oqFofdQ4wai3BkHAY6M-Rw.jpeg">'
-  );
-}
+} 
