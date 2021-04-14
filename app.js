@@ -152,31 +152,22 @@ if(condition){
 
 // prompt, alert and if statement
 
-// var userAge=prompt('please enter your Age');
+ var moviepart=prompt('which part of this movie you want to watch');
 
-// if(userAge >= 18){
-//   alert('you can see my website');
-// }else{
-//   alert('sorry you are under age');
-//   alert('please come back when you are 18');
-// }
+if(moviepart >= 3){
+ alert('sorry,not available yet');
+ }else if (moviepart <= 2){
+  alert('enjoy watching');
+ }
+var userage = prompt("please enter your age");
 
-// this will write the msg in the html, not in the console
-// document.write('hello I am from javascript file, you will see me in the html');
-
-// document.write('<h3>'+' h3 from js file '+'</h3>');
-
-// if prompt document.write
-
-var moviePart = prompt("please enter the movie Part that u want to watch");
-
-if (moviePart >= 1) {
-  document.write("nice choice");
+if (userage >= 18) {
+  document.write("sorry,its childtype movie");
   document.write(
     '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxSGLzyPSfbsIfp0lPDGDFOxdzsrFUWA1YIA&usqp=CAU">'
   );
-} else if (moviePart >= 2) {
-  document.write("gorgious");
+} else if (userage <= 17) {
+  document.write("welcome");
   document.write(
     '<img src="https://i.ebayimg.com/images/g/k0EAAOSwc9ZcmAvP/s-l300.jpg">'
   );
