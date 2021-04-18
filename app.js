@@ -171,22 +171,25 @@ if (userage >= 18) {
   document.write(
     '<img src="https://i.ebayimg.com/images/g/k0EAAOSwc9ZcmAvP/s-l300.jpg">'
   );
+
 }  
-var minionsName = prompt('Hello, please enter your fav char name from minions movie!');
+
+
+var heroesName = prompt('Hello, please enter your fav char name from harrtypotter movie!');
 
 // validator 
 // i will use the and
-while(minionsName !== 'bob'&& minionsName !== 'kevin'){
-  minionsName = prompt('Please enter the name bob or kevin');
+while(heroesName !== 'harry'&& heroesName !== 'marie'){
+  heroesName = prompt('Please enter the name harry or marie');
 }
 
 // var will save the image that the user choose
 var userChoose;
 
-if(minionsName === 'bob'){
-userChoose='<img src="https://images-na.ssl-images-amazon.com/images/I/714MGKAJUxL._AC_SX466_.jpg">';
-}else if (minionsName === 'kevin'){
-  userChoose='<img src="https://i.pinimg.com/originals/ea/4d/b9/ea4db91c8c784aefc9d40e2bede8fa15.jpg">';
+if(heroesName === 'harry'){
+userChoose='<img src="https://www.dailyhindnews.com/wp-content/uploads/2020/12/1608779400_Harry-Potter-2-who-other-actor-in-the-saga-could.jpg">';
+}else if (heroesName === 'marie'){
+  userChoose='<img src="https://i.pinimg.com/originals/25/f2/4c/25f24c8168d4fdae6f2ea325444cf3c3.jpg">';
 }
 
 
