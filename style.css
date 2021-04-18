@@ -6,9 +6,16 @@ h1{
 }
 nav ul li {display: inline;
 padding: 10px;
+
 }
 main article h4{
   border:1px solid#bbbfca;
+
+margin
+}
+main article h4{
+  border:1px solid black;
+
   padding:10px;
   margin: 30px;
 }
@@ -20,15 +27,17 @@ main article img{
   opacity:0.9 ;
 }
 main article p{
-  colore:#ffd5cd;
+  color:#ffd5cd;
 }
+
 #first_P{
   color:#0e45dd;
 }
 .restof_p{
  font-size: 20px;
  color:#542e71 ;
+ 
 }
 footer{
-  text-align:center
+  text-align: center;
 }
